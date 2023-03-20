@@ -1,5 +1,5 @@
 
-name: Gopropz
+name: GitHub Pags
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --baseURL=https://Propz1.github.io/gopropz
+        run: hugo --minify --baseURL=https://Propz1.github.io/gopropzcom
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
