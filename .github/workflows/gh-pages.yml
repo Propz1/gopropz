@@ -1,5 +1,5 @@
 
-name: gopropz
+name: Gopropz
 
 on:
   push:
@@ -29,6 +29,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          exclude_assets: '.github,.exe'
           publish_dir: ./public
         
