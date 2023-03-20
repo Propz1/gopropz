@@ -23,7 +23,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --baseURL=https://Propz1.github.io/gopropzcom
+        run: hugo --minify --baseURL=https://Propz1.github.io/gopropz
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
