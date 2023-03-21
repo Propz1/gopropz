@@ -59,8 +59,7 @@
   {{ end }}
 
   {{ if site.Params.email }}
-  {{ $email := "./static/email.svg" }} 
-    <link rel="preload" as="image" href="{{ $email | absURL }}" />
+    <link rel="preload" as="image" href="{{ printf `./static/email.svg` | absURL }}" />
   {{ end }}
 
   <!-- Favicon -->
