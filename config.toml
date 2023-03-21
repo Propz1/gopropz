@@ -13,7 +13,7 @@ title = "gopropz.com"
 [params]
   color = 'linen'
   github = 'Propz1'
-  twitter = 'pavel@gopropz.com'
+  email = 'pavel@gopropz.com' 
 
 # ------------------------------
 
